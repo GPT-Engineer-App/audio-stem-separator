@@ -1,6 +1,6 @@
 // Update this page (the content is just a fallback if you fail and example)
 // Use chakra-ui
-import { Container, Text, VStack, Heading, Button } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Button, Box, Image, Link } from "@chakra-ui/react";
 
 const Index = () => {
   return (
@@ -10,9 +10,15 @@ const Index = () => {
           Welcome to Your Blank Canvas
         </Heading>
         <Text fontSize="lg">Chat with the agent to start making edits and bring your ideas to life.</Text>
+        <Box boxSize="sm">
+          <Image src="https://via.placeholder.com/150" alt="Placeholder Image" />
+        </Box>
         <Button colorScheme="teal" size="lg">
           Start Chatting
         </Button>
+        <Link href="https://chakra-ui.com" isExternal color="teal.500">
+          Learn more about Chakra UI
+        </Link>
       </VStack>
     </Container>
   );
