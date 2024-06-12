@@ -1,0 +1,11 @@
+{
+  "name": "my-spleeter-app",
+  "version": "1.0.0",
+  "main": "api/upload.js",
+  "dependencies": {
+    "multiparty": "^4.2.2"
+  },
+  "scripts": {
+    "start": "node api/upload.js"
+  }
+}

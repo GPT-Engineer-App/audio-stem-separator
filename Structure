@@ -1,0 +1,9 @@
+/my-spleeter-app
+  /api
+    upload.js
+    output.js
+  /public
+    index.html
+    style.css
+  vercel.json
+  package.json
